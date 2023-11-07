@@ -1,0 +1,232 @@
+/* color palette */
+:root{
+    --primary: black;
+    --secondary:grey;
+}
+
+@media screen and (min-width:1024px){ .header_area_container{
+    background:purple;
+} 
+
+ .wgl-header-row_wrapper{
+    background:white;
+} 
+
+.menu-item-1782{
+    background:#35a07b;
+    margin-left: 250px;
+    border-left: 1px solid white;
+  height: 500px;
+}
+
+.menu-item-1810{
+    background:#35a07b;
+    border-left: 1px solid white;
+  height: 500px;
+}
+
+.menu-item-1784{
+    background:#35a07b;
+    border-left: 1px solid white;
+  height: 500px;
+}
+
+.menu-item-1805{
+    background:#35a07b;
+    border-left: 1px solid white;
+  height: 500px;
+}
+
+.menu-item-1832{
+    background:#35a07b;
+    border-left: 1px solid white;
+  height: 500px;
+}
+
+.menu-item-1826{
+    background:#35a07b;
+    border-left: 1px solid white;
+  height: 500px;
+}
+
+.side_panel .side_panel_inner .side_panel-toggle{
+ color:black; 
+    margin-top:400px;
+
+}
+
+#menu-main-1{
+    margin-left:140px
+}
+
+
+}
+
+/* Hero section */
+
+.hero {
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 400px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p.lead {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Styles for the hero button */
+.hero a.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Responsiveness: Adjust padding and font size for smaller screens */
+@media (max-width: 768px) {
+  .hero {
+      padding: 80px 0;
+  }
+
+  .hero h1 {
+      font-size: 2rem;
+  }
+
+  .hero p.lead {
+      font-size: 1rem;
+  }
+}
+
+/* hero section */
+
+/* about & skills section */
+
+.about-skills {
+  background-color: #ffffff;
+  color: #343a40;
+  padding: 80px 0;
+}
+
+.about-content h2,
+.skills h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Responsiveness: Adjust padding and font size for smaller screens */
+@media (max-width: 768px) {
+  .about-skills {
+      padding: 60px 0;
+  }
+
+  .about-content h2,
+  .skills h2 {
+      font-size: 1.5rem;
+  }
+
+  .skills ul li {
+      font-size: 1rem;
+  }
+}
+
+/* about & skills section */
+
+/* Portfolio */
+
+.nav-pills .nav-link {
+  border-radius: 20px; /* Adjust the border-radius as needed */
+  margin-right: 10px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.card {
+  border: none; /* Remove default card border */
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+      margin-bottom: 20px;
+  }
+}
+
+/* Portfolio */
+
+/* Contact */
+
+.contact {
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding: 80px 0;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.map {
+  height: 400px; /* Adjust the height of the map as needed */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Responsiveness: Adjust padding for smaller screens */
+@media (max-width: 768px) {
+  .contact {
+      padding: 60px 0;
+  }
+
+  .contact-form {
+      padding: 30px;
+  }
+
+  .map {
+      height: 300px;
+  }
+}
+
+/* Contact */
